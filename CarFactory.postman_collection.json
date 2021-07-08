@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "032cdc7d-a7b6-419d-8015-8d713edbd683",
+		"name": "CarFactory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/car/type?carType=hatchback",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"car",
+						"type"
+					],
+					"query": [
+						{
+							"key": "carType",
+							"value": "hatchback"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
